@@ -1,1 +1,0 @@
-{"mappings":";;;;;;;AAAO,SAAS,0CAAI,CAAC,EAAE,CAAC;IACtB,OAAO,IAAI;AACb;AAEO,SAAS,0CAAS,CAAC,EAAE,CAAC;IAC3B,OAAO,IAAI;AACb","sources":["src/index.ts"],"sourcesContent":["export function add(a, b) {\n  return a + b;\n}\n\nexport function subtract(a, b) {\n  return a - b;\n}\n"],"names":[],"version":3,"file":"main.js.map","sourceRoot":"../"}
