@@ -1,14 +1,15 @@
 {
+  "author": "chris gradwohl",
+  "description": "monorepo setup for SAM, CDK, CF backend.",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  },
+  "license": "ISC",
+  "main": "dist/main.js",
   "name": "parcel-typescript-monorepo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.10.2"
-  }
+  "source": "src/index.js",
+  "version": "1.0.0"
 }
