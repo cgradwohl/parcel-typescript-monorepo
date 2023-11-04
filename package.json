@@ -8,8 +8,9 @@
   "main": "dist/main.js",
   "name": "parcel-typescript-monorepo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
-  "source": "src/index.js",
+  "source": "src/index.ts",
   "version": "1.0.0"
 }
