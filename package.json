@@ -2,7 +2,10 @@
   "author": "chris gradwohl",
   "description": "monorepo setup for SAM, CDK, CF backend.",
   "devDependencies": {
-    "parcel": "^2.10.2"
+    "@parcel/packager-ts": "^2.10.2",
+    "@parcel/transformer-typescript-types": "^2.10.2",
+    "parcel": "^2.10.2",
+    "typescript": "^5.2.2"
   },
   "license": "ISC",
   "main": "dist/main.js",
@@ -12,5 +15,6 @@
     "build": "parcel build"
   },
   "source": "src/index.ts",
+  "types": "dist/types.d.ts",
   "version": "1.0.0"
 }
